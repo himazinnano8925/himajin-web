@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><head>
+<link rel="stylesheet" href="HW.css">
+<title>himajin web(JP)</title>
+</head>
+<center><img src="logo.png" alt="himajin web">
+　　　　<h4>himajin web-ver1.2.1</h4><a href="himajin web β.html">ベータ版</a>
+<h1>これはわざわざ5時間で暇な俺が作ったサイトです</h1>
+<marquee width=500 bgcolor="#f39800">
+天気予報で確認！　　　　　　　　　　　　　このサイトへようこそ！</marquee>
+<hr>
+<h2>"今日の情報"</h2>
+<body>
+    <script>
+var today=new Date();
+var year = today.getFullYear();
+var month = today.getMonth()+1;
+var week = today.getDay();
+var day = today.getDate();
+var week_ja= new Array("日","月","火","水","木","金","土");
+document.write(year+"年"+month+"月"+day+"日 "+week_ja[week]+"曜日"+"現在の情報です。");</script></body>
+
+<h5>近日追加</h5>
+
+<h3>今日の天気と週間天気予報</h3><h6><a href="tenki.txt">天気予報について</a></h6>
+<a class="weatherwidget-io" href="https://forecast7.com/ja/35d69139d69/tokyo/" data-label_1="東京都" data-label_2="天気" data-font="Comic Sans MS" data-icons="Climacons Animated" data-theme="original" data-basecolor="#f6b894" data-highcolor="#b22222" data-lowcolor="#00ffff" data-suncolor="#ffff00" data-cloudcolor="" data-cloudfill="#dfdede" >東京都 天気</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+<hr>
+
+<h3>このサイトに問題がある場合は下のフォームで、問題を記入してください(現在使用不可)
+<a href="https://www.google.com/?safe=active&ssui=on" target="_blank">代替フォーム</a>で行ってください</h3></center>
+
+<form action="***.txt" method="post">
+  <label class="label" for="name">名前</label>
+  <input id="name" type="text" name="name" disabled>
+  <label class="label" for="e-mail">メール</label>
+  <input id="e-mail" type="email" name="email" required disabled>
+  <label class="label" for="message">入力</label>
+  <textarea rows="4" id="message" placeholder="ここに問題などを入力。" name="comment" required disabled></textarea>
+  <input type="submit" disabled>
+</form>
+
+<style>
+label, input[type=text]{
+ display:block;
+}
+</style>
+<center><h5>There are other languages!<a href="himajin web en.html">English.(UK)</a></h5></center>
+<a href="https://github.com/himazinnano8925/himajin-web/releases" target="_blank"> <img src="github.png" alt="github">
+<a href="https://drive.google.com/drive/folders/16hD3J4r1DN-XRot1Z83Qq7P6GxH4gMGR?usp=sharing" target="_blank"> <img src="Google_Drive_logo.png" class="google" alt="Google Drive"></a><h5>このリンクは右から順に、github(ﾘﾘｰｽ),googleDrive(windows iso)</h5>
+</html>
