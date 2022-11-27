@@ -1,7 +1,0 @@
-日本語-japanese
-天気予報について：
-1.この天気予報はインターネットの接続がある必要があります。
-2.これはforecast7.comによる天気予報です。
-English(UK)-英語(イギリス)
-1.This weather forecast requires an internet connection.
-2.This weather forecast is provided by forecast7.com.
